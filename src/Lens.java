@@ -1,7 +1,7 @@
 public class Lens {
     private int Focatlength;
 
-    public Lens() {
+    public Lens(int Focatlength) {
         this.Focatlength = Focatlength;
     }
 
