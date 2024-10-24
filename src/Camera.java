@@ -24,4 +24,8 @@ public class Camera {
     public String getColor() {
         return color;
     }
+
+    public void getSpace() {
+
+    }
 }

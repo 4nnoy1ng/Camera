@@ -1,17 +1,19 @@
+import java.util.Date;
+
 public class Pictures {
 
     private String name;
-    private String date;
+    private Date date;
     private int size;
 
-    public Pictures(String name, String date, int size) {
+    public Pictures(String name, Date date, int size) {
         this.name = name;
         this.date = date;
         this.size = size;
 
     }
 
-    public String getDate() {
+    public Date getDate() {
         return date;
     }
 
