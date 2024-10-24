@@ -1,14 +1,14 @@
 public class Manufacturer {
-    private String Land;
+    private String Country;
     private String Name;
 
     public Manufacturer(String Land, String Name) {
-        this.Land = Land;
+        this.Country = Country;
         this.Name = Name;
     }
 
-    public String getLand() {
-        return Land;
+    public String getCountry() {
+        return Country;
     }
 
     public String getName() {
