@@ -2,7 +2,7 @@ public class Manufacturer {
     private String Country;
     private String Name;
 
-    public Manufacturer(String Land, String Name) {
+    public Manufacturer(String Country, String Name) {
         this.Country = Country;
         this.Name = Name;
     }
