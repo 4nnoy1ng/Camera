@@ -1,25 +1,25 @@
 public class Pictures {
 
-    private String Name;
-    private String Date;
-    private int Size;
+    private String name;
+    private String date;
+    private int size;
 
-    public Pictures(String Name, String Date, int Size) {
-        this.Name = Name;
-        this.Date = Date;
-        this.Size = Size;
+    public Pictures(String name, String date, int size) {
+        this.name = name;
+        this.date = date;
+        this.size = size;
 
     }
 
     public String getDate() {
-        return Date;
+        return date;
     }
 
     public int getSize() {
-        return Size;
+        return size;
     }
 
     public String getName() {
-        return Name;
+        return name;
     }
 }

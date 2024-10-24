@@ -1,15 +1,15 @@
 public class SDCard {
-    private int Capacity;
+    private int capacity;
 
-    public SDCard(int Capacity) {
-        this.Capacity = Capacity;
+    public SDCard(int capacity) {
+        this.capacity = capacity;
     }
 
     public void setCapacity(int capacity) {
-        Capacity = capacity;
+        this.capacity = capacity;
     }
 
     public int getCapacity() {
-        return Capacity;
+        return capacity;
     }
 }

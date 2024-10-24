@@ -1,15 +1,15 @@
 public class Lens {
-    private double Focatlength;
+    private double focallengthLength;
 
-    public Lens(double Focatlength) {
-        this.Focatlength = Focatlength;
+    public Lens(double focallengthLength) {
+        this.focallengthLength = focallengthLength;
     }
 
-    public void setFocatlength(double focatlength) {
-        Focatlength = focatlength;
+    public void setFocallengthLength(double focallengthLength) {
+        this.focallengthLength = focallengthLength;
     }
 
     public double getFocatlength() {
-        return Focatlength;
+        return focallengthLength;
     }
 }
