@@ -1,12 +1,14 @@
+package at.tue.projects.camera;
+
 import java.util.Date;
 
-public class Pictures {
+public class Picture {
 
     private String name;
     private Date date;
     private int size;
 
-    public Pictures(String name, Date date, int size) {
+    public Picture(String name, Date date, int size) {
         this.name = name;
         this.date = date;
         this.size = size;

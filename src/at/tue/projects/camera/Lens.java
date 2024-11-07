@@ -1,3 +1,5 @@
+package at.tue.projects.camera;
+
 public class Lens {
     private double focallengthLength;
 

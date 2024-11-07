@@ -1,3 +1,5 @@
+package at.tue.projects.camera;
+
 public class Manufacturer {
     private String country;
     private String name;
