@@ -5,7 +5,9 @@ public class Main {
         Pictures p1 = new Pictures("Daniel", new Date(), 100);
         Pictures p2 = new Pictures("Ronny", new Date(), 100);
         Pictures p3 = new Pictures("Tim", new Date(), 100);
+        SDCard sdc1 = new SDCard(1000);
 
         System.out.println(p1.getDate());
+        System.out.println();
     }
 }
