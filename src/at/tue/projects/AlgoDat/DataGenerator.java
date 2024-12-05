@@ -13,4 +13,13 @@ public class DataGenerator {
         return data;
     }
 
+    public static int[] generateDataMinMax(int size, int min, int max) {
+        int[] data = new int[size];
+        Random rand = new Random();
+
+        for (int i = 0; i < size; i++) {
+            data[i] = rand.nextInt(max - min + 1) + min;
+        }
+        return data;
+    }
 }
