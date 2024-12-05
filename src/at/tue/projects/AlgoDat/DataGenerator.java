@@ -1,3 +1,5 @@
+package at.tue.projects.AlgoDat;
+
 import java.util.Random;
 
 public class DataGenerator {
