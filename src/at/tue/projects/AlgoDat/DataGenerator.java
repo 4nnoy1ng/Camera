@@ -1,5 +1,6 @@
 package at.tue.projects.AlgoDat;
 
+import java.util.Arrays;
 import java.util.Random;
 
 public class DataGenerator {
@@ -21,5 +22,9 @@ public class DataGenerator {
             data[i] = rand.nextInt(max - min + 1) + min;
         }
         return data;
+    }
+
+    public static void printArray(int[] data) {
+        System.out.println(Arrays.toString(data));
     }
 }
