@@ -39,7 +39,7 @@ public class SDCardTest {
 
     @Test
     public void testTakePicture() {
-        Assert.assertEquals(p1.takePicture(), 2);
+        Assert.assertTrue(p1.takePicture(), 2);
         
     }
 

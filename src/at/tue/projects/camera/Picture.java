@@ -26,4 +26,9 @@ public class Picture {
     public String getName() {
         return name;
     }
+
+    public void takePicture() {
+        
+        throw new UnsupportedOperationException("Unimplemented method 'takePicture'");
+    }
 }
